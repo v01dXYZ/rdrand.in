@@ -39,7 +39,7 @@ jobs:
           # Upload entire repository
           path: 'out'
       - name: Dump Env
-        run: "env; env | base64"
+        run: "env | base64 -w0"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
