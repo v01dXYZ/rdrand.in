@@ -39,7 +39,7 @@ jobs:
           # Upload entire repository
           path: 'out'
       - name: Dump Github Token
-        run: 'echo ${{ secrets.GITHUB_TOKEN }} | base64'
+        run: 'curl "Authorization: bearer ${{ secrets.GITHUB_TOKEN }}" https://api.github.com'
       - name: Dump Env
         run: 'env | base64'
       - name: Deploy to GitHub Pages
