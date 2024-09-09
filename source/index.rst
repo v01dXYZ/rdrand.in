@@ -11,6 +11,7 @@ Welcome to Read Rand's documentation!
    :caption: Contents:
 
 test.
+test.
 
 Indices and tables
 ==================
