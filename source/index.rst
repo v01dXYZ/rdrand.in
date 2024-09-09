@@ -12,6 +12,7 @@ Welcome to Read Rand's documentation!
 
 test.
 test.
+test.
 
 Indices and tables
 ==================
