@@ -10,7 +10,7 @@ Welcome to Read Rand's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+test.
 
 Indices and tables
 ==================
