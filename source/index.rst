@@ -3,20 +3,22 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Read Rand's documentation!
-=====================================
+Read Random from v01dxyz
+========================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-test.
-test.
-test.
+   github/index
+   llvm/index
+   rented_computer_resources/index
+   haskell/index
 
-Indices and tables
-==================
+..
+   Indices and tables
+   ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   * :ref:`genindex`
+   * :ref:`modindex`
+   * :ref:`search`
